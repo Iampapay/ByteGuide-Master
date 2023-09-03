@@ -1,0 +1,103 @@
+.searchOuter input[type=submit] {
+    background: #319cda;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+.searchOuter input[type=submit]:hover {
+    background: #1e6188;
+}
+
+.searchOuter input[type=submit]:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.uploadedImg {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.uploadedImg a {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #d4d3d3;
+    padding: 3px 8px 5px 8px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.uploadedImg img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.uploadedImg a img {
+    width: auto;
+    height: auto;
+}
+
+input[type=file].hideMe {
+    display: none;
+}
+
+.box-primary {
+    box-shadow: -5px -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.required_field{
+    color: red;
+}
+
+.error {
+    color: rgb(235, 0, 0) !important;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+input.errorClass {
+    border: 1px solid rgb(235, 0, 0) !important;
+}
+
+select.errorClass {
+    border: 1px solid rgb(235, 0, 0) !important;
+}
+
+label.errorClass {
+    color: 1px solid rgb(243, 10, 10) !important;
+}
+
+textarea.errorClass {
+    color: 1px solid rgb(243, 10, 10) !important;
+}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 2px 14px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 2px;
+}
+
+.card {
+    box-shadow: -5px -4px 10px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,8 @@
+id
+session year
+start date 
+enddate 
+
+
+
+php artisan make:model ModelNamel -m 

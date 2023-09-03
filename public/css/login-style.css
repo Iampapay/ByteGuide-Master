@@ -1,0 +1,269 @@
+@font-face {
+    font-family: "Raleway", sans-serif;
+    src: url("../fonts/caviardreams_bold-webfont.woff2") format("woff2"),
+        url("../fonts/caviardreams_bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+/*****common*****/
+body,
+html {
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+    font-size: 16px;
+    line-height: 22px;
+}
+a,
+img {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+img {
+    max-width: 100%;
+    width: auto;
+    /* padding-top: 60px; */
+    padding-top: 27px;
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.title1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1e1e1e;
+    font-family: "Raleway", sans-serif;
+    padding: 20px 0 40px 0;
+}
+.title1 span {
+    display: inline-block;
+    color: #1a65b2;
+}
+/**********/
+.form-sec .title1 span {
+    display: inline-block;
+    text-transform: uppercase;
+}
+.body-wrapper {
+    background: url(../img/login-background.jpg) no-repeat center;
+    min-height: 921px;
+    background-size: cover;
+}
+.login-sec {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 34px;
+    position: relative;
+}
+.logo-sec {
+    position: relative;
+    /*left: 50%; top:0; transform: translate(-50%,0);  -webkit-transform: translate(-50%,0);*/
+    width: 100%;
+    display: inline-block;
+    z-index: 123;
+    /* padding: 3px; border: 1px dashed #fff; border-radius: 50%;*/
+    background: url(../img/logo-bg.png) no-repeat 0 0;
+    background-size: 100%;
+    padding-bottom: 10px;
+}
+.logo {
+    display: inline-block;
+    /* background: rgba(255,255,255,0.5);
+    padding: 30px;
+    border-radius: 50%;*/
+}
+.logo-sec .logo img {
+    padding-top: 30px;
+}
+.login-sec .form-sec {
+    padding: 2px;
+    /* border: 1px dashed rgba(255, 255, 255, .43); */
+    border-top: none;
+    padding-top: 0;
+    border-radius: 0 0 8px 8px;
+    position: relative;
+    z-index: 1;
+}
+.login-sec .form-sec:after {
+    /*  position: absolute; content: ""; width: 225px; height: 78px; background: url(../images/half-circle.png) no-repeat 0 0;
+  left: 50%; top: -75px; transform: translate(-50%,0); -webkit-transform: translate(-50%,0);*/
+}
+.form-sec > div {
+    /* background: rgba(255, 255, 255, .43); */
+    background: rgb(35 180 198 / 96%); /*#23B4C6*/
+    padding: 0 55px 30px 55px;
+    /* border-radius: 0 0 8px 8px; */
+    border-radius: 20px 20px 20px 20px;
+}
+.form-group {
+    margin-bottom: 18px;
+}
+.form-group input {
+    padding: 10px 22px;
+    color: #555555;
+    border: 1px solid #555555;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: auto;
+}
+.form-group select {
+    padding: 10px 22px;
+    color: #555555;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: auto;
+}
+.form-group textarea {
+    padding: 10px 22px;
+    color: #555555;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: auto;
+}
+.form-group input.user {
+    background: rgba(255, 255, 255, 0.7) url(../img/user-ico.png) no-repeat 96%
+        center;
+}
+.form-group input.pass {
+    background: rgba(255, 255, 255, 0.7) url(../img/pass-ico.png) no-repeat 96%
+        center;
+}
+.form-group input:focus {
+    border: 1px solid #77ab0b;
+    outline: none;
+    box-shadow: none;
+}
+.form-group input[type="submit"],
+.form-group button {
+    display: inline-block;
+    width: auto;
+    background: #337ab7;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    border: none;
+    padding: 10px 20px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.form-group button:hover {
+    background: #286090;
+}
+.form-group input[type="submit"]:hover,
+.form-group input[type="submit"]:focus,
+.form-group button:hover,
+.form-group button:focus {
+    background: #1a65b2;
+    border: 1px solid #1a65b2;
+}
+.form-horizontal .form-group {
+    margin-right: 0;
+    margin-left: 0;
+}
+.form-sec span {
+    display: block;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.form-sec span.help-block {
+    text-align: left;
+    padding-left: 10px;
+    color: #f00;
+    margin-bottom: 0;
+}
+input {
+    font-family: "Open Sans", sans-serif;
+}
+.form-sec input[type="submit"] {
+    font-family: "Raleway", sans-serif;
+}
+.login-sec .btn-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    line-height: 24px;
+}
+.login-sec .btn-link:hover {
+    color: #0c1556;
+}
+p.reset-pass-msg {
+    color: #2d580c;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+}
+@media (max-width: 767px) {
+    .body-wrapper {
+        background: url(../img/login-background.jpg) no-repeat center;
+        min-height: 1139px;
+        background-size: cover;
+    }
+    .login-sec {
+        max-width: 90%;
+        padding-top: 70px;
+    }
+    .title1 {
+        font-size: 25px;
+        padding-bottom: 25px;
+    }
+    .form-sec > div {
+        padding: 20px 20px 20px 20px;
+    }
+    .logo {
+        height: 138px;
+    }
+}
+@media (max-width: 479px) {
+    .logo {
+        height: 92px;
+    }
+    .logo img {
+        max-width: 60%;
+    }
+    .form-sec > div {
+        padding: 0px 20px 20px 20px;
+    }
+    .form-group input[type="submit"] {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 13px 34px;
+    }
+    .title1 {
+        font-size: 20px;
+        padding-bottom: 22px;
+    }
+    .login-sec .form-sec {
+        padding: 1px;
+        border: none;
+        padding-top: 0;
+    }
+    .form-group button {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 10px 20px;
+    }
+}
+@media (min-width: 1550px) {
+    .body-wrapper {
+        background: url(../img/login-background.jpg) no-repeat center;
+        min-height: 1021px;
+        background-size: cover;
+    }
+    .login-sec .form-sec {
+        padding: 2px;
+        /* border: 1px dashed rgba(255, 255, 255, .43); */
+        border-top: none;
+        padding-top: 186px;
+        border-radius: 0 0 8px 8px;
+        position: relative;
+        z-index: 1;
+    }
+}
