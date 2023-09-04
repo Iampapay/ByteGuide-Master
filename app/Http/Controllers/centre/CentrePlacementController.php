@@ -406,7 +406,7 @@ class CentrePlacementController extends Controller {
                     $data_json = json_encode($data);
 
                     $headers = [
-                        "Authorization: Bearer EAAKvpnQ7eXoBADksWIVZBK2yuEco6unWzwh56zZBFwIyZCy7zRuxkXrWKbhb6diKh2gwxlFPmbOeXqz70QRieKNzMguYalULqGsGRznhORWLNCEaiZCzOqYW5lZBNoWBo2rpA4W4Fc5e6ZBd88PvlwlNFiyAGxo7CJNquU7s00KJPRVfTwBp5gjDoPpVZAUH7dpbE3KNvyCfQZDZD",
+                        "Authorization: Bearer EAAKvpnQ7ehb6diKh2gwxlTwBp5gjDoPpVZAUH7dpbE3KNvyCfQZDZD",
                         "Content-Type: application/json"
                     ];
 
